@@ -12,6 +12,6 @@ public:
 
 private:
 	ChessPiece* _board[8][8] = { nullptr };
-
+	Pos* _CanGO[8];
 };
 
